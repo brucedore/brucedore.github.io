@@ -5,35 +5,38 @@ University of Pennsylvania
 brucedore@gmail.com
 http://brucedore.github.io/
 
-EDUCATION & EMPLOYMENT ==========================================
-2016-		Postdoctoral Researcher
-		University of Pennsylvania
+EDUCATION & EMPLOYMENT ===========================================
+2016-		Postdoctoral Researcher, University of Pennsylvania
 		Advisor: Emily Falk
 		
-2009-2016	Ph.D. Psychology
-		Columbia University 
-		Advisor: Kevin Ochsner2004-2008	B.Sc. Psychology
-		University of Guelph 
-		Advisor: Linda Parker2007		NSERC Student Researcher
-		University of British Columbia 
-		Advisor: Alan Kingstone
-AWARDS ========================================================== 
-2014 		GSAS Teaching Scholars Award 
-2013 		Richard Christie Memorial Fellowship 
-2010		NSERC PGS-M Extension2009		NSERC PGS-M 
-2009		Ontario Graduate Scholarship (declined) 
-2007		NSERC Undergraduate Student Research Award 
-2007 		Dean's Scholarship, U of Guelph 
-2007 		Psychology Core Award, U of Guelph 
-2007 		Biomedical Science Research Prize, U of Guelph 
-2006 		Dean's Scholarship, U of Guelph 
-2005 		Alumni Heritage Scholarship, U of Guelph 
-2005 		Dean's Scholarship, U of Guelph 
-2005 		Lionel Bradley Pett Scholarship, U of Guelph 
-2004 		Entrance Scholarship, U of Guelph 
-2004 		QE II Aiming for the Top Scholarship
-PUBLICATIONS ===================================================== 
-Doré, B.P., Boccagno,C., Burr, D., Hubbard, A., Long, K., Weber, J., Stern, Y., Ochsner, K.N. (in press) Finding positive meaning in negative experiences engages ventral striatal and ventromedial prefrontal reward regions. Journal of Cognitive Neuroscience. 
+2009-2016	Ph.D. Psychology, Columbia University 
+		Advisor: Kevin Ochsner2004-2008	B.Sc. Psychology, University of Guelph 
+		Advisor: Linda ParkerAWARDS, FELLOWSHIPS, AND HONORS ================================== 
+2017 	Poster Award, Society for Social and Affective Neuroscience
+2014 	GSAS Teaching Scholars Award 
+2013 	Richard Christie Memorial Fellowship 
+2010	NSERC PGS-M Extension2009	NSERC PGS-M 
+2009	Ontario Graduate Scholarship (declined) 
+2007	NSERC Undergraduate Student Research Award 
+2007 	Dean's Scholarship, U of Guelph 
+2007 	Psychology Core Award, U of Guelph 
+2007 	Biomedical Science Research Prize, U of Guelph 
+2006 	Dean's Scholarship, U of Guelph 
+2005 	Alumni Heritage Scholarship, U of Guelph 
+2005 	Dean's Scholarship, U of Guelph 
+2005 	Lionel Bradley Pett Scholarship, U of Guelph 
+2004 	Entrance Scholarship, U of Guelph 
+PUBLICATIONS ====================================================== 
+
+Doré, B.P., & Bolger, N.P. (accepted) Population- and individual-level changes in life satisfaction surrounding major life stressors. Social Psychological and Personality Science. 
+
+Zimmermann, K., Walz, C., Derckx, R.T., Kendrick, K.M., Weber, B., Dore, B., Ochsner, K.N., Hurlemann, R. and Becker, B. (2017). Emotion regulation deficits in regular marijuana users. Human Brain Mapping.
+
+Doré, B.P., Morris, R.R., Burr, D.A., Picard, R.W., & Ochsner, K. N. (2017). Helping others regulate emotion predicts increased regulation of one’s own emotions and decreased symptoms of depression. Personality and Social Psychology Bulletin.
+
+Doré, B.P., Weber, J., & Ochsner, K. N. (2017). Neural predictors of decisions to cognitively control emotion. Journal of Neuroscience. 
+
+Doré, B.P., Boccagno,C., Burr, D., Hubbard, A., Long, K., Weber, J., Stern, Y., Ochsner, K.N. (2017) Finding positive meaning in negative experiences engages ventral striatal and ventromedial prefrontal regions associated with reward valuation. Journal of Cognitive Neuroscience. 
 
 Doré, B. P. & Meskin, R., Mather, M., Hirst, W. & Ochsner, K. N. (2016). Highly accurate prediction of emotions surrounding the attacks of September 11, 2001 over 1-, 2-, and 7-year prediction intervals. Journal of Experimental Psychology: General.  
 
@@ -44,20 +47,21 @@ Doré, B.P., & Ochsner, K.N. (2015) Emotion regulation. In A. Toga & M. D. Lieb
 Doré, B.P., Zerubavel, N., & Ochsner, K.N. (2014) Social Cognitive Neuroscience: a review of core systems. APA Handbook of Personality and Social Psychology. In M. Mikulincer, P. R. Shaver, E. Borgida, & J. A. Bargh (Eds.), APA handbook of personality and social psychology.
 
 
-MANUSCRIPTS IN PREPARATION =======================================
-Doré, B.P., Weber, J., & Ochsner, K.N. (in revision for Journal of Neuroscience) Neural predictors of future decisions to control emotion.
-Doré, B.P. & Ochsner, K.N. (in revision for JEP:General) Reappraisal causes lasting change in the content and emotional impact of autobiographical memories.
+Grants= ===========================================================
 
-Doré, B.P, Morris, R.R., Burr, D., Picard, R.W., & Ochsner, K.N. (under review at Personality & Social Psychology Bulletin). Helping others regulate emotion predicts increased regulation of one’s own emotions and decreased symptoms of depressionDoré, B.P, Burr, D., Hubbard, H., Weber, J., Stern, Y. & Ochsner, K.N. (in prep) Neural mechanisms of positive and neutralizing reappraisal across the adult lifespan
+Neural Predictors of successful graphic anti-smoking media 
+UPenn NIH-FDA Tobacco Center of Regulatory Science Pilot Project Funding Opportunity
+Co-Principal Investigator: Bruce Doré
+Amount: $50,000
+2017-Ongoing
 
-Doré, B.P, Burr, D., Hubbard, H., Weber, J., Stern, Y. & Ochsner, K.N. (in prep) Brain mediators of age-related increase in motivation to regulate emotion 
 
-Doré, B. & Ochsner, K.N. (in prep). Opt-in Optimism: choosing to look on the bright side enhances ability to do so
-Doré, B.P, Holland, A.C., Weber J., Davachi, L., & Ochsner, K.N. (in prep) Neural mechanisms underlying durable regulation of negative personal memories
+TALKS & PRESENTATIONS =============================================
 
-Doré, B.P. & Bolger, N. (in prep) Population- and individual-level changes in life satisfaction surrounding major life stressors
+Doré, B.P., Scholz, C., Baek, E., Garcia, J.O, O’Donnell, M, Bassett, D, Vettel, JM, Falk  (2017, May). Neural prediction of population information sharing behavior relates to daily life information seeking. Paper presented at the annual meeting of the International Communication Association, San Diego, CA. 
 
-TALKS & PRESENTATIONS ============================================
+Doré, B.P., Scholz, C., Baek, E., Garcia, J.O, O’Donnell, M, Bassett, D, Vettel, JM, Falk (2017, March). Neural prediction of population information sharing behavior relates to daily life information seeking. Poster presented at the annual meeting of the Social and Affective Neuroscience Society, Los Angeles, CA.
+
 Doré, B.P., Boccagno,C., Burr, D., Hubbard, A., Long, K.,Weber, J., Stern, Y., Ochsner, K.N. (April 2016) Finding positive meaning in negative experiences engages ventral striatal and ventromedial prefrontal reward regions. Poster Presented at Social and Affective Neuroscience Society annual meeting.
 
 Doré, B., Weber, J., & Ochsner, K.N. (April 2016) Brain predictors of decisions to regulate emotion. Poster Presented at Cognitive Neuroscience Society annual meeting. 
@@ -69,11 +73,11 @@ Doré, B. & Ochsner, K.N. (April 2013) Opt-in Optimism: choosing to look on the
 Holland, A.C., Doré, B., Davachi, L., & Ochsner, K.N. (April 2013) The Durability of Cognitive Reappraisal applied to Autobiographical Memories. Poster Presented at Social & Affective Neuroscience Society Annual Meeting.
 Doré, B. & Ochsner, K.N. (April 2012) Reappraisal of Personal Memories via Positivizing and Neutralizing: immediate and long- term effects. Poster Presented at Social & Affective Neuroscience Society Annual Meeting.
 
-PROFESSIONAL SERVICE=============================================
+PROFESSIONAL SERVICE ==============================================
 AD-HOC REVIEWER
-Social Cognitive and Affective Neuroscience, Cognition and Emotion, Journal of Neuroscience, Biological Psychiatry
+Social Cognitive and Affective Neuroscience, Cognition and Emotion, Journal of Neuroscience, Biological Psychiatry,
 
-TEACHING =========================================================COURSES DESIGNED & TAUGHT at COLUMBIA 
+TEACHING ==========================================================COURSES DESIGNED & TAUGHT at COLUMBIA 
 2014 Psychology & Neuroscience of Positive Emotion 
 2013 Seminar in Emotion
 TEACHING ASSISTANT at COLUMBIA 
@@ -81,13 +85,4 @@ Research Methods
 Social Psychology
 Mind, Brain, and Behavior
 Developmental Psychology
-OTHER TRAINING =================================================== 
-2013 Computational Social Science, Dept of Applied Mathematics, Columbia U 
-2012 Statistical Analysis of fMRI Data, Dept of Statistics, Columbia U 
-2010 Workshop in Multivariate Pattern Analysis, Dept of Statistics, Columbia U 
-2010 Teaching Practicum, Dept of Psychology, Columbia U
-2010 Mathematical Tools for Cognitive and Neural Science, Dept of Psychology, NYU 
-2009 fMRI Image Acquisition and Analysis Course, U New Mexico & Columbia U
 
-RESEARCH INTERESTS ==============================================
-emotion regulation, appraisal theory, motivation, behavior change, resilience, autobiographical memory, aging, individual differences, computational social science, multilevel modeling, fMRI methods
