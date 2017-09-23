@@ -318,9 +318,7 @@ grid.arrange(
 <p>See here: <a href="http://rstudio-pubs-static.s3.amazonaws.com/155188_cc8b400f7d134a3e9de6cbfb8320e1e0.html" class="uri">http://rstudio-pubs-static.s3.amazonaws.com/155188_cc8b400f7d134a3e9de6cbfb8320e1e0.html</a> </p>
 <p><em>Person means and person-centered scores</em></p>
 <p>This interest in between-person versus within-person effects motivates decomposing variables into their between-person components (i.e., “person means”) and their within-person components (i.e., “person-centered” scores, which are deflections from the person mean). In cases (like my negative memory example) where the between- and within-person effects are truly different, this can really help to unpack what is going on.</p>
-<p>i use base R to do this</p>
-<p>a_dataframe &lt;- within(a_dataframe, {x_pm = ave(x, subj, FUN=function(x) mean(x, na.rm=T))}) a_dataframe<span class="math inline">\(x_pc &lt;- a_dataframe\)</span>x - a_dataframe$x_pm<br />
-</p>
+<p></p>
 <p><em>What about allowing model intercepts or slopes to vary by stimulus (e.g., message/ad/video, etc.)?</em> As a psychology researcher who cares about generalizing to a population of people beyond the people that happened to walk into my study, I care a lot about the varying effects for different people.</p>
 <p>Similarly, as communication researchers, we may care very much about generalizing to a population of messages beyond those that we happened to include in our study, so it can make sense to allow intercepts and slopes to vary by stimulus.</p>
 <p>lmer(y ~ 1 + x1 + x2 + x1:x2 + (x1|pID) + (x1|stimID)</p>
