@@ -307,13 +307,23 @@ grid.arrange(
 <p><em>what if my model doesn’t converge?</em></p>
 <p>this is probably a sign there is not enough information in your dataset to estimate these slope variances with much certainty</p>
 <ol style="list-style-type: decimal">
-<li><p>one option is to change the optimizer lmer(y ~ 1 + x1 + x2 + x1:x2 + (x1 + x2 + x1:x2|pID), control=lmerControl(optimizer=“bobyqa”,ptCtrl=list(maxfun=2e5)))</p></li>
-<li><p>another option would be to revert, because it is convenient, to a simpler model that assumes exactly zero person-to-person variability on some variables</p></li>
+<li>one option is to change the optimizer (see guide here: <a href="https://rstudio-pubs-static.s3.amazonaws.com/33653_57fc7b8e5d484c909b615d8633c01d51.html" class="uri">https://rstudio-pubs-static.s3.amazonaws.com/33653_57fc7b8e5d484c909b615d8633c01d51.html</a>)</li>
 </ol>
-<p>lmer(y ~ 1 + x1 + x2 + x1:x2 + (x1 + x2|pID) or lmer(y ~ 1 + x1 + x2 + x1:x2 + (x1|pID) or lmer(y ~ 1 + x1 + x2 + x1:x2 + (1|pID)</p>
+<pre class="r"><code>#m1_changedoptimizer&lt;-lmer(y ~ 1 + x1 + x2 + x1:x2 + (x1 + x2 + x1:x2|pID), control=lmerControl(optimizer=&quot;bobyqa&quot;,ptCtrl=list(maxfun=2e5)))</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>another option would be to revert, because it is convenient, to a simpler model that assumes exactly zero person-to-person variability on some variables (see Bates et al. here: <a href="https://arxiv.org/abs/1506.04967" class="uri">https://arxiv.org/abs/1506.04967</a>)</li>
+</ol>
+<pre class="r"><code>#m_maximalvaryingeffects&lt;-lmer(y ~ 1 + x1 + x2 + x1:x2  + (1 + x1 + x2 + x1:x2|pID)
+                              
+#m_reduced1&lt;-lmer(y ~ 1 + x1 + x2 + x1:x2  + (1+ x1 + x2|pID)
+    
+#m_reduced2&lt;-lmer(y ~ 1 + x1 + x2 + x1:x2  + (1 + x1|pID)
+    
+#m_reduced3&lt;-lmer(y ~ 1 + x1 + x2 + x1:x2  + (1|pID)</code></pre>
 <ol start="3" style="list-style-type: decimal">
-<li>a third option is to switch to bayesian estimation. this will always converge (it just might take a long time). in the past, this was technically demanding but there are now easy to use r packages. more importantly, this entails a change in statistical philosophy. the brms package on CRAN gives access to a wide variety of bayesian models with an lmer-like syntax. brm(y ~ 1 + x1 + x2 + x1:x2 + (x1 + x2 + x1:x2|pID), prior=NULL, cores=4, iter=500)</li>
+<li>a third option is to switch to bayesian estimation. this will always converge (it just might take a long time). in the past, this was technically demanding but there are now easy to use r packages. more importantly, this entails a change in statistical philosophy. the brms package on CRAN gives access to a wide variety of bayesian models with an lmer-like syntax.</li>
 </ol>
+<pre class="r"><code>#b1&lt;-brm(y ~ 1 + x1 + x2 + x1:x2  + (x1 + x2 + x1:x2|pID), prior=NULL, cores=4, iter=500)</code></pre>
 <p></p>
 <p><em>simpson’s paradox (aka ‘ecological fallacy’)</em></p>
 <p>one of the most useful features of multilevel models is that they can be used to look at between-person and within-person effects separately.</p>
@@ -322,11 +332,14 @@ grid.arrange(
 <p></p>
 <p><em>Person means and person-centered scores</em></p>
 <p>This interest in between-person versus within-person effects motivates decomposing variables into their between-person components (i.e., “person means”) and their within-person components (i.e., “person-centered” scores, which are deflections from the person mean). In cases (like my negative memory example) where the between- and within-person effects are truly different, this can really help to unpack what is going on.</p>
+<pre class="r"><code>#some code illustrating how to do this and visualizing the results will go here</code></pre>
 <p></p>
 <p><em>What about allowing model intercepts or slopes to vary by stimulus (e.g., message/ad/video, etc.)?</em></p>
 <p>As a psychology researcher who cares about generalizing to a population of people beyond the people that happened to walk into my study, I care a lot about the varying effects for different people.</p>
 <p>Similarly, as communication researchers, we may care very much about generalizing to a population of messages beyond those that we happened to include in our study, so it can make sense to allow intercepts and slopes to vary by stimulus.</p>
-<p>lmer(y ~ 1 + x1 + x2 + x1:x2 + (x1|pID) + (x1|stimID)</p>
+<pre class="r"><code>#some code illustrating how to do this and visualizing the results will go here
+
+#lmer(y ~ 1 + x1 + x2 + x1:x2  + (x1|pID)  + (1|stimID) </code></pre>
 </div>
 
 
