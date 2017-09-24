@@ -144,7 +144,7 @@ library(coefplot2)</code></pre>
 </div>
 <div id="complete-pooling" class="section level2">
 <h2>complete pooling</h2>
-<p>To illustrate this, I’ll used the sleepstudy data included in the lme4 package. In this dataset, 18 people were subjected to sleep deprivation over 9 days and each person’s average reaction time on each day was recorded.</p>
+<p>To illustrate this, I’ll use the sleepstudy data included in the lme4 package. In this dataset, 18 people were subjected to sleep deprivation over 9 days and each person’s average reaction time on each day was recorded.</p>
 <pre class="r"><code>head(sleepstudy)</code></pre>
 <pre><code>##   Reaction Days Subject
 ## 1 249.5600    0     308
@@ -284,7 +284,7 @@ grid.arrange(
 <div id="useful-references" class="section level2">
 <h2>USEFUL REFERENCES</h2>
 <p>good intro: bolger &amp; laurenceau 2012 textbook <a href="http://www.intensivelongitudinal.com/" class="uri">http://www.intensivelongitudinal.com/</a></p>
-<p>more demanding: gelman &amp; hill 2007 textbook <a href="http://www.stat.columbia.edu/~gelman/arm/" class="uri">http://www.stat.columbia.edu/~gelman/arm/</a></p>
+<p>more advanced: gelman &amp; hill 2007 textbook <a href="http://www.stat.columbia.edu/~gelman/arm/" class="uri">http://www.stat.columbia.edu/~gelman/arm/</a></p>
 <p></p>
 </div>
 <div id="a-few-loose-ends-things-to-deal-with-in-the-future" class="section level2">
@@ -299,9 +299,9 @@ grid.arrange(
 <p>There are examples in the literature of papers being retracted because they used fixed slope models but people reanalyzed them with varying slope models and got nonsignificant results </p>
 <p><em>what if there is more than one predictor variable?</em></p>
 <p>start with a varying intercept model</p>
-<p>lmer(y ~ 1 + x1 + x2 + x1:x2, + (1|pID)</p>
+<pre class="r"><code>#lmer(y ~ 1 + x1 + x2 + x1:x2, + (1|pID)</code></pre>
 <p>add varying slopes for the predictors</p>
-<p>lmer(y ~ 1 + x1 + x2 + x1:x2 + (x1 + x2 + x1:x2|pID)</p>
+<pre class="r"><code>#lmer(y ~ 1 + x1 + x2 + x1:x2 + (x1 + x2 + x1:x2|pID)</code></pre>
 <p>you may run into problems with convergence</p>
 <p></p>
 <p><em>what if my model doesn’t converge?</em></p>
@@ -321,7 +321,7 @@ grid.arrange(
     
 #m_reduced3&lt;-lmer(y ~ 1 + x1 + x2 + x1:x2  + (1|pID)</code></pre>
 <ol start="3" style="list-style-type: decimal">
-<li>a third option is to switch to bayesian estimation. this will always converge (it just might take a long time). in the past, this was technically demanding but there are now easy to use r packages. more importantly, this entails a change in statistical philosophy. the brms package on CRAN gives access to a wide variety of bayesian models with an lmer-like syntax.</li>
+<li>a third option is to switch to bayesian estimation. this will always converge (it just might take a long time and/or require that you incorporate external information). in the past, this was technically demanding but there are now easy to use r packages. more importantly, this entails a change in statistical philosophy. the brms package on CRAN gives access to a wide variety of bayesian models with an lmer-like syntax.</li>
 </ol>
 <pre class="r"><code>#b1&lt;-brm(y ~ 1 + x1 + x2 + x1:x2  + (x1 + x2 + x1:x2|pID), prior=NULL, cores=4, iter=500)</code></pre>
 <p></p>
